@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAbrirSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Abrir site" />
+
+    <Button
+        android:id="@+id/btnDiscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAbrirSite"
+        android:layout_centerHorizontal="true"
+        android:text="Discar" />
+
+    <Button
+        android:id="@+id/btnDiscarChamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDiscar"
+        android:layout_centerHorizontal="true"
+        android:text="Discar e chamar" />
+
+    <Button
+        android:id="@+id/btnAbrirMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDiscarChamar"
+        android:layout_centerHorizontal="true"
+        android:text="Abrir mapa" />
+
+    <Button
+        android:id="@+id/btnAbrirAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAbrirMapa"
+        android:layout_centerHorizontal="true"
+        android:text="Abrir agenda" />
+
+    <Button
+        android:id="@+id/btnEditarPrimeiroContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAbrirAgenda"
+        android:layout_centerHorizontal="true"
+        android:text="Editar primeiro contato" />
+
+    <Button
+        android:id="@+id/btnAbrirCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEditarPrimeiroContato"
+        android:layout_centerHorizontal="true"
+        android:text="Abrir câmera" />
+
+</RelativeLayout>
